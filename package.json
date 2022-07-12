@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "npm run build",
     "watch:css": "postcss src/style/tailwind.css -o src/style/output.css && npm run watch:css",
     "start": "react-scripts start",
     "test": "react-scripts test",
